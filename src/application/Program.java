@@ -43,6 +43,10 @@ public class Program {
 		seller.setName("Martha");
 		sellerDao.update(seller);
 		System.out.println("Update completed!");
+		
+		System.out.println("\n=== TEST 5: seller delete === ");
+		
+		
 	}
 
 }
